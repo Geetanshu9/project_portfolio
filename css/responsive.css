@@ -1,0 +1,51 @@
+@media screen and (max-width: 1020px) {
+    header div{
+        margin: 5px;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 786px) {
+    .dot{
+        display: none;
+    }
+    .btn-menu{
+        position: absolute;
+        top: 2px;
+        display: block;
+        color: white;
+        font-size: 18px;
+       
+    }
+    header{
+        min-height: 50px;
+        height: max-content;
+        justify-content: center;
+        align-items: center;
+    }
+    .header{
+        display: none;
+    }
+    .active{
+        display: block;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .header div{
+        text-align: center;
+    }
+
+}
+
+
+
+@media screen and (max-width: 490px) {
+
+}
+
+
